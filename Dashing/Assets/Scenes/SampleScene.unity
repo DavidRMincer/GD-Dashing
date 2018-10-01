@@ -299,6 +299,11 @@ Prefab:
       propertyPath: directionPivot
       value: 
       objectReference: {fileID: 2098942374}
+    - target: {fileID: 114144448863222454, guid: cc18d25aafdb182449aed91b163a63bf,
+        type: 2}
+      propertyPath: rotationSpeed
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc18d25aafdb182449aed91b163a63bf, type: 2}
   m_IsPrefabParent: 0

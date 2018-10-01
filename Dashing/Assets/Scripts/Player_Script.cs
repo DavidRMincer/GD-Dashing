@@ -6,7 +6,8 @@ public class Player_Script : MonoBehaviour
 {
     public GameObject directionalArrow,
         directionPivot;
-    public float dashForce;
+    public float dashForce,
+        rotationSpeed;
 
     private Vector3 direction;
     private Rigidbody rb;
@@ -17,7 +18,7 @@ public class Player_Script : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         moving = false;
 
-        Dash();
+        //Dash();
     }
 
     private void FixedUpdate()
@@ -25,6 +26,8 @@ public class Player_Script : MonoBehaviour
         moving = !((Mathf.Abs(rb.velocity.x) < 0.001) &&
             (Mathf.Abs(rb.velocity.y) < 0.001) &&
             (Mathf.Abs(rb.velocity.z) < 0.001));
+
+        if (!moving) GetInput();
     }
 
     private void LateUpdate()
@@ -37,6 +40,17 @@ public class Player_Script : MonoBehaviour
         {
             directionalArrow.SetActive(true);
         }
+    }
+
+    private void GetInput()
+    {
+        if (Input.GetButtonDown("Dash")) Dash();
+
+        else
+        {
+            transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
+        }
+
     }
 
     public void Dash()
