@@ -9,7 +9,9 @@ public class Player_Script : MonoBehaviour
     public Camera followingCamera;
     public float dashForce,
         rotationSpeed,
-        cameraSpeed;
+        cameraSpeed,
+		cameraShakeDuration,
+		cameraShakeIntensity;
 
     private Vector3 direction;
     private Rigidbody rb;
@@ -71,5 +73,26 @@ public class Player_Script : MonoBehaviour
         direction.y = 0.0f;
 
         rb.AddForce(direction * dashForce);
+		
+		StartCoroutine(ShakeCamera());
     }
+	
+	public IEnumerator ShakeCamera()
+	{
+		Vector3 originalPos = followingCamera.transform.localPosition;
+		
+		float elapsed = 0.0f;
+		
+		while (elapsed < cameraShakeDuration)
+		{
+			float x = followingCamera.transform.position.x + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensity);
+			float y = followingCamera.transform.position.y + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensity);
+			
+			followingCamera.transform.localPosition = new Vector3(x, y, originalPos.z);
+			
+			elapsed += Time.deltaTime;
+			
+			yield return null;
+		}
+	}
 }
