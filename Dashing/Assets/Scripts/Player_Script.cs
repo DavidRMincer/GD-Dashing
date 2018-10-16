@@ -7,6 +7,7 @@ public class Player_Script : MonoBehaviour
     public GameObject directionalArrow,
         directionPivot;
     public Camera followingCamera;
+    public ParticleSystem dust;
     public float dashForce,
         rotationSpeed,
         cameraSpeed,
@@ -73,6 +74,8 @@ public class Player_Script : MonoBehaviour
         direction.y = 0.0f;
 
         rb.AddForce(direction * dashForce);
+
+        dust.Play();
 		
 		StartCoroutine(ShakeCamera());
     }
