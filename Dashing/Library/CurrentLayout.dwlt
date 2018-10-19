@@ -15,8 +15,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
+<<<<<<< HEAD
     width: 1920
     height: 1117
+=======
+    width: 1600
+    height: 817
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 11}
@@ -37,11 +42,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 711
     width: 694
     height: 356
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    y: 511
+    width: 578
+    height: 256
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -63,6 +76,7 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1226
     y: 0
     width: 694
@@ -71,6 +85,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 153
+=======
+    x: 1022
+    y: 0
+    width: 578
+    height: 767
+  m_MinSize: {x: 277, y: 192}
+  m_MaxSize: {x: 4002, y: 8042}
+  vertical: 1
+  controlID: 154
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -86,9 +110,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 690
     width: 360
     height: 377
+=======
+    y: 496
+    width: 300
+    height: 271
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 18}
@@ -114,12 +144,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 360
     height: 1067
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 11
+=======
+    width: 300
+    height: 767
+  m_MinSize: {x: 232, y: 471}
+  m_MaxSize: {x: 10002, y: 14021}
+  vertical: 1
+  controlID: 28
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,9 +174,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 529
     width: 866
     height: 538
+=======
+    y: 380
+    width: 722
+    height: 387
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
@@ -161,6 +206,7 @@ MonoBehaviour:
   - {fileID: 6}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 360
     y: 0
     width: 866
@@ -169,6 +215,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4004, y: 8021}
   vertical: 1
   controlID: 117
+=======
+    x: 300
+    y: 0
+    width: 722
+    height: 767
+  m_MinSize: {x: 204, y: 442}
+  m_MaxSize: {x: 4004, y: 8042}
+  vertical: 1
+  controlID: 118
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,12 +243,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 1067
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 152
+=======
+    width: 1600
+    height: 767
+  m_MinSize: {x: 713, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
+  vertical: 0
+  controlID: 116
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,10 +274,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 694
     height: 711
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 578
+    height: 511
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -235,10 +307,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 360
     height: 690
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 300
+    height: 496
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -263,8 +342,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
     height: 1117
+=======
+    width: 1600
+    height: 817
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &12
@@ -283,7 +367,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
+=======
+    width: 1600
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -303,8 +391,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 1097
     width: 1920
+=======
+    y: 797
+    width: 1600
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -326,12 +419,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1226
     height: 1067
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
   controlID: 116
+=======
+    width: 1022
+    height: 767
+  m_MinSize: {x: 436, y: 471}
+  m_MaxSize: {x: 14006, y: 14021}
+  vertical: 0
+  controlID: 117
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,10 +450,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 866
     height: 529
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+=======
+    width: 722
+    height: 380
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -434,9 +543,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 782
     width: 358
     height: 356
+=======
+    y: 588
+    width: 298
+    height: 250
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -456,14 +571,24 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing
+=======
+  m_LastProjectPath: C:\Users\Dave-id\Documents\GitHub\GD-Dashing\Dashing
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: a22d0000
     m_LastClickedID: 11682
     m_ExpandedIDs: 00000000c42b000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 7e290000
+    m_LastClickedID: 10622
+    m_ExpandedIDs: 000000005429000000ca9a3bffffff7f
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +616,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c42b0000
+=======
+    m_ExpandedIDs: 0000000054290000
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,10 +695,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1228
     y: 92
     width: 692
     height: 690
+=======
+    x: 1024
+    y: 92
+    width: 576
+    height: 490
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -602,6 +738,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
+<<<<<<< HEAD
     width: 358
     height: 669
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -610,6 +747,16 @@ MonoBehaviour:
     m_SelectedIDs: a22d0000
     m_LastClickedID: 0
     m_ExpandedIDs: baf8ffff00000000
+=======
+    width: 298
+    height: 475
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e8fbffff
+    m_LastClickedID: -1048
+    m_ExpandedIDs: e8fbffffeafbffff00000000022c0000
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -653,10 +800,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 362
     y: 92
     width: 862
     height: 508
+=======
+    x: 302
+    y: 92
+    width: 718
+    height: 359
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 1364.2544519231487
@@ -696,7 +850,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.20558327, y: 0.37870544, z: -0.08667661, w: -0.8982232}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.20558329, y: 0.37870544, z: -0.08667661, w: -0.8982233}
+=======
+    m_Value: {x: -0.20558327, y: 0.37870544, z: -0.08667661, w: -0.8982232}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_Size:
     m_Target: 5.0943007
     speed: 2
@@ -732,10 +890,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 362
     y: 621
     width: 862
     height: 517
+=======
+    x: 302
+    y: 472
+    width: 718
+    height: 366
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -745,10 +910,17 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -431
     m_HBaseRangeMax: 431
     m_VBaseRangeMin: -250
     m_VBaseRangeMax: 250
+=======
+    m_HBaseRangeMin: -359
+    m_HBaseRangeMax: 359
+    m_VBaseRangeMin: -174.5
+    m_VBaseRangeMax: 174.5
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -765,25 +937,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 862
       height: 500
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 431, y: 250}
+=======
+      width: 718
+      height: 349
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 359, y: 174.5}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -431
       y: -250
       width: 862
       height: 500
+=======
+      x: -359
+      y: -174.5
+      width: 718
+      height: 349
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 862, y: 517}
+=======
+  m_LastWindowPixelSize: {x: 718, y: 366}
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -807,8 +997,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1228
     y: 803
     width: 692
     height: 335
+=======
+    x: 1024
+    y: 603
+    width: 576
+    height: 235
+>>>>>>> parent of a370751... Merge pull request #2 from DavidRMincer/Levels
   m_PersistentViewDataDictionary: {fileID: 0}
