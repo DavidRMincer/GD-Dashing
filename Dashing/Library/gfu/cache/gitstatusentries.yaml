@@ -12,786 +12,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-19T17:20:51.372+01:00
-  initializedAtString: 2018-10-19T17:20:51.066+01:00
+  lastUpdatedAtString: 2018-10-19T17:40:42.494+01:00
+  initializedAtString: 2018-10-19T17:39:08.300+01:00
   entries:
-  - path: Dashing\Assets\Plugins.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins.meta
-    projectPath: Assets\Plugins.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub.meta
-    projectPath: Assets\Plugins\GitHub.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor.meta
-    projectPath: Assets\Plugins\GitHub\Editor.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\credits.txt
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\credits.txt
-    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\credits.txt.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\credits.txt.meta
-    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\eula.txt
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\eula.txt
-    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\eula.txt.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\eula.txt.meta
-    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
-    projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\libsfw.bundle
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\libsfw.bundle
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\libsfw.so
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\libsfw.so
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\sfw.net.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\sfw.net.dll
-    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\System.Threading.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\System.Threading.dll
-    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x64.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x64.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x86.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x86.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Dashing\Library\assetDatabase3
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\assetDatabase3
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Dashing\Library\CurrentLayout.dwlt
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Dashing\Library\EditorInstance.json
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\EditorInstance.json
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     status: 1
     staged: 0
-  - path: Dashing\Library\expandedItems
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\expandedItems
-    projectPath: Library\expandedItems
+  - path: Dashing\Library\gfu\cache\branches.yaml
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Dashing\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Dashing\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\gfu\cache\gitlog.yaml
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Dashing\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Dashing\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Dashing\Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\gfu\cache\gituser.yaml
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gituser.yaml
     projectPath: Library\gfu\cache\gituser.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Dashing\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\gfu\cache\repoinfo.yaml
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\15\151a1d946b98deb4b98445400983ba92
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\15\151a1d946b98deb4b98445400983ba92
-    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
-    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
-    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
-    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
-    projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
-    projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
-    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
-    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\35\355018e58029da447b4f9bc0399a7112
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\35\355018e58029da447b4f9bc0399a7112
-    projectPath: Library\metadata\35\355018e58029da447b4f9bc0399a7112
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\35\355018e58029da447b4f9bc0399a7112.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\35\355018e58029da447b4f9bc0399a7112.info
-    projectPath: Library\metadata\35\355018e58029da447b4f9bc0399a7112.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
-    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
     projectPath: Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
     originalPath: 
     status: 5
     staged: 0
-  - path: Dashing\Library\metadata\63\636d33ae594884e7d80b569f429d245d
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\63\636d33ae594884e7d80b569f429d245d
-    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
-    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
-    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
-    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
-    projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
-    projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
-    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
-    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
-    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
-    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
-    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
-    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
-    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
-    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
-    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
-    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
-    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
-    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
-    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
-    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
-    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
-    projectPath: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
-    projectPath: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
-    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
-    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
-    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
-    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 5
-    staged: 0
   - path: Dashing\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\ScriptAssemblies\BuiltinAssemblies.stamp
     projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
     status: 5
     staged: 0
-  - path: Dashing\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Dashing\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Dashing\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Dashing\Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
     projectPath: Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
     originalPath: 
     status: 1
     staged: 0
+  - path: Dashing\Temp\ProcessJobs\766595e69f890d31a2d1ba2711305691.bakert
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\ProcessJobs\766595e69f890d31a2d1ba2711305691.bakert
+    projectPath: Temp\ProcessJobs\766595e69f890d31a2d1ba2711305691.bakert
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Dashing\Temp\UnityLockfile
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityLockfile
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     status: 1
     staged: 0
-  - path: Dashing\Temp\UnityTempFile-0d24aa83a870ca543af93f53156427c8
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityTempFile-0d24aa83a870ca543af93f53156427c8
-    projectPath: Temp\UnityTempFile-0d24aa83a870ca543af93f53156427c8
+  - path: Dashing\Temp\UnityTempFile-724f7cb4126a401439fef2d064708f28
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityTempFile-724f7cb4126a401439fef2d064708f28
+    projectPath: Temp\UnityTempFile-724f7cb4126a401439fef2d064708f28
     originalPath: 
     status: 1
     staged: 0
-  - path: Dashing\Temp\UnityTempFile-307a99a7316bf884f8369ca248426a68
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityTempFile-307a99a7316bf884f8369ca248426a68
-    projectPath: Temp\UnityTempFile-307a99a7316bf884f8369ca248426a68
+  - path: Dashing\Temp\UnityTempFile-8f4f63cc56024824cb458e8fa3151149
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityTempFile-8f4f63cc56024824cb458e8fa3151149
+    projectPath: Temp\UnityTempFile-8f4f63cc56024824cb458e8fa3151149
     originalPath: 
     status: 1
     staged: 0
-  - path: Dashing\Temp\UnityTempFile-539110404fe67b24cae3c4b45a142fa9
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityTempFile-539110404fe67b24cae3c4b45a142fa9
-    projectPath: Temp\UnityTempFile-539110404fe67b24cae3c4b45a142fa9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityTempFile-7203d560145e9ca40bcb2d63c274ba6e
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityTempFile-7203d560145e9ca40bcb2d63c274ba6e
-    projectPath: Temp\UnityTempFile-7203d560145e9ca40bcb2d63c274ba6e
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityTempFile-7f040aec3939e3e4eb12faed5c169577
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityTempFile-7f040aec3939e3e4eb12faed5c169577
-    projectPath: Temp\UnityTempFile-7f040aec3939e3e4eb12faed5c169577
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityTempFile-f74da080b66556d4190b2dd8e4c0a0b1
-    fullPath: C:\Users\2mincd85\Desktop\GD-Dashing\Dashing\Temp\UnityTempFile-f74da080b66556d4190b2dd8e4c0a0b1
-    projectPath: Temp\UnityTempFile-f74da080b66556d4190b2dd8e4c0a0b1
+  - path: Dashing\Temp\UnityTempFile-9b41cd674795cf14994500e031ab17d1
+    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityTempFile-9b41cd674795cf14994500e031ab17d1
+    projectPath: Temp\UnityTempFile-9b41cd674795cf14994500e031ab17d1
     originalPath: 
     status: 1
     staged: 0
