@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-10-19T17:39:06.883+01:00
-  initializedAtString: 2018-10-19T17:39:06.883+01:00
+  lastUpdatedAtString: 2018-10-19T17:43:24.232+01:00
+  initializedAtString: 2018-10-19T17:43:24.232+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/DavidRMincer/GD-Dashing.git
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/DavidRMincer/GD-Dashing.git
-  currentHead: c53dcf6
+  currentHead: c1131af
