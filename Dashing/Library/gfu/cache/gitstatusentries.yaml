@@ -12,102 +12,96 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-19T17:40:42.494+01:00
-  initializedAtString: 2018-10-19T17:39:08.300+01:00
+  lastUpdatedAtString: 2018-10-26T17:14:36.921+01:00
+  initializedAtString: 2018-10-26T17:13:27.762+01:00
   entries:
+  - path: Dashing\Assembly-CSharp.csproj
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Assets\Prefabs\PlayerObject.prefab
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Assets\Prefabs\PlayerObject.prefab
+    projectPath: Assets\Prefabs\PlayerObject.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Assets\Scenes\SampleScene.unity
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Dashing\Library\assetDatabase3
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\assetDatabase3
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Dashing\Library\EditorInstance.json
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Library\gfu\cache\branches.yaml
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Dashing\Library\CurrentMaximizeLayout.dwlt
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
-  - path: Dashing\Library\gfu\cache\gitlog.yaml
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
+  - path: Dashing\Library\gfu\cache\gitlocks.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Dashing\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Dashing\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Dashing\Library\gfu\cache\gituser.yaml
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Dashing\Library\gfu\cache\repoinfo.yaml
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\gfu\cache\repoinfo.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
-    projectPath: Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19
+  - path: Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19.info
+    projectPath: Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Dashing\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+  - path: Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
-  - path: Dashing\Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
-    projectPath: Temp\ProcessJobs\47de52777078f98a5e7a9f91688b9f90.bakert
+  - path: Dashing\Library\metadata\cc\cc18d25aafdb182449aed91b163a63bf.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\cc\cc18d25aafdb182449aed91b163a63bf.info
+    projectPath: Library\metadata\cc\cc18d25aafdb182449aed91b163a63bf.info
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Dashing\Temp\ProcessJobs\766595e69f890d31a2d1ba2711305691.bakert
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\ProcessJobs\766595e69f890d31a2d1ba2711305691.bakert
-    projectPath: Temp\ProcessJobs\766595e69f890d31a2d1ba2711305691.bakert
+  - path: Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityLockfile
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityTempFile-724f7cb4126a401439fef2d064708f28
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityTempFile-724f7cb4126a401439fef2d064708f28
-    projectPath: Temp\UnityTempFile-724f7cb4126a401439fef2d064708f28
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityTempFile-8f4f63cc56024824cb458e8fa3151149
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityTempFile-8f4f63cc56024824cb458e8fa3151149
-    projectPath: Temp\UnityTempFile-8f4f63cc56024824cb458e8fa3151149
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Dashing\Temp\UnityTempFile-9b41cd674795cf14994500e031ab17d1
-    fullPath: U:\Documents\GitHub\GD-Dashing\Dashing\Temp\UnityTempFile-9b41cd674795cf14994500e031ab17d1
-    projectPath: Temp\UnityTempFile-9b41cd674795cf14994500e031ab17d1
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
