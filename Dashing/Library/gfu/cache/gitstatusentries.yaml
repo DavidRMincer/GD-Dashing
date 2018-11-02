@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 5
+  lastUpdatedAtString: 2018-10-26T17:14:36.921+01:00
+  initializedAtString: 2018-10-26T17:13:27.762+01:00
+  entries:
+  - path: Dashing\Assembly-CSharp.csproj
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Assets\Prefabs\PlayerObject.prefab
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Assets\Prefabs\PlayerObject.prefab
+    projectPath: Assets\Prefabs\PlayerObject.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Assets\Scenes\SampleScene.unity
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\assetDatabase3
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\CurrentMaximizeLayout.dwlt
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\gfu\cache\gitlocks.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\gfu\cache\repoinfo.yaml
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19.info
+    projectPath: Library\metadata\52\52a206b72a8f4f749c28d8b18b42dd19.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\metadata\cc\cc18d25aafdb182449aed91b163a63bf.info
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\metadata\cc\cc18d25aafdb182449aed91b163a63bf.info
+    projectPath: Library\metadata\cc\cc18d25aafdb182449aed91b163a63bf.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: U:\Documents\GitHub\Levels\Dashing\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
