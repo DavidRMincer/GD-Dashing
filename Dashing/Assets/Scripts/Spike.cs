@@ -1,0 +1,36 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spike : MonoBehaviour {
+
+    private ParticleSystem particle;
+
+    // Use this for initialization
+    void Start () {
+        particle = this.GetComponent<ParticleSystem>();
+        particle.Stop();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+    void OnEnable()
+    {
+        particle = this.GetComponent<ParticleSystem>();
+        particle.Stop();
+    }
+	
+	void OnCollisionEnter(Collision collision)
+	{
+		Debug.Log("Collision");
+
+        if (collision.gameObject.tag == "Player")
+        {
+            particle.Play();
+            Destroy(collision.gameObject);
+        }
+	}
+}
