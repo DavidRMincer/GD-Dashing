@@ -59,8 +59,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Chargebar.cs" />
+    <Compile Include="Assets\Scripts\Boost.cs" />
     <Compile Include="Assets\Scripts\button.cs" />
+    <Compile Include="Assets\Scripts\Chargebar.cs" />
     <Compile Include="Assets\Scripts\EnableEffect.cs" />
     <Compile Include="Assets\Scripts\Lever.cs" />
     <Compile Include="Assets\Scripts\Player_Script.cs" />

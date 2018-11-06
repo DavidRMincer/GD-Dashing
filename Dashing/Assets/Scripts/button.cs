@@ -17,6 +17,8 @@ public class button : MonoBehaviour {
     private Color onColor;
     private Color emissionColor;
 
+    public ParticleSystem particle;
+
     // Use this for initialization
     void Start ()
     {
@@ -24,6 +26,15 @@ public class button : MonoBehaviour {
         emissionColor = meshRenderer.material.color;
         offColor = offMaterial.color;
         onColor = onMaterial.color;
+
+        particle = GetComponent<ParticleSystem>();
+        particle.Stop();
+        particle.Clear();
+
+        if (isOn)
+            particle.startColor = onColor;
+        else
+            particle.startColor = offColor;
     }
 	
 	// Update is called once per frame
@@ -52,15 +63,19 @@ public class button : MonoBehaviour {
         {
             isOn = !isOn;
 
+            particle.Play();
+
             if (isOn)
             {
                 meshRenderer.material = onMaterial;
                 light.color = onMaterial.color;
+                particle.startColor = onColor;
             }
             else
             {
                 meshRenderer.material = offMaterial;
                 light.color = offMaterial.color;
+                particle.startColor = offColor;
             }
 
             emissionColor = meshRenderer.material.color;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Script : MonoBehaviour
 {
@@ -9,12 +10,16 @@ public class Player_Script : MonoBehaviour
     public float currentDashForce, maxDashForce, addDashSpeed,
         rotationSpeed,cameraSpeed,
 		cameraShakeDuration,
-		cameraShakeIntensity;
+		cameraShakeIntensity,
+        cameraShakeIntensityCharging;
     public GameObject chargebar, chargeBarMax, Marker;
+    public Text text;
     public Camera followingCamera;
     public ParticleSystem dust;
+
     public Vector3 direction;
 
+    private int dashesAmount;
     private Rigidbody rb;
     private ParticleSystem particle;
     private bool moving;
@@ -47,21 +52,14 @@ public class Player_Script : MonoBehaviour
 
         if (!moving) GetInput();
 
-        if(isCharging)
-        {
-            float percentage = currentDashForce / maxDashForce;
-
-            particle.startSpeed = 1 + percentage;
-            particle.emissionRate = 3 + (percentage * 7);
-
-            chargebar.GetComponent<Chargebar>().changeScale(percentage);
-        }
-
         var mousePosition = Input.mousePosition;
         mousePosition.z = 10.0f;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
         Marker.transform.position = mousePosition;
+
+        if (isCharging)
+            StartCoroutine(ShakeCameraOverTime());
     }
 
     private void LateUpdate()
@@ -75,6 +73,17 @@ public class Player_Script : MonoBehaviour
         else
         {
             directionalArrow.SetActive(true);
+        }
+
+        if (isCharging)
+        {
+            float percentage = currentDashForce / maxDashForce;
+
+            particle.startSpeed = 1 + (percentage * 1.3f);
+            particle.emissionRate = 3 + (percentage * 14);
+            particle.startSize = 0.12f + (percentage * 0.5f);
+
+            chargebar.GetComponent<Chargebar>().changeScale(percentage);
         }
     }
 
@@ -115,6 +124,10 @@ public class Player_Script : MonoBehaviour
         else
         {
             transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
+
+            Vector3 oldCamPosition = followingCamera.transform.position;
+            followingCamera.transform.RotateAround(chargebar.transform.position, Vector3.up, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
+            cameraOffset += followingCamera.transform.position - oldCamPosition;
         }
 
     }
@@ -128,8 +141,6 @@ public class Player_Script : MonoBehaviour
 
         rb.AddForce(direction * currentDashForce);
 
-        currentDashForce = 0;
-
         particle.Stop();
         particle.Clear();
         isCharging = false;
@@ -140,7 +151,13 @@ public class Player_Script : MonoBehaviour
 
         dust.Play();
 
-		StartCoroutine(ShakeCamera());
+        currentDashForce = 0;
+
+        dashesAmount++;
+
+        StartCoroutine(changeText());
+
+        StartCoroutine(ShakeCamera());
     }
 
 	public IEnumerator ShakeCamera()
@@ -161,4 +178,37 @@ public class Player_Script : MonoBehaviour
 			yield return null;
 		}
 	}
+
+    public IEnumerator ShakeCameraOverTime()
+    {
+        float percentage = currentDashForce / maxDashForce;
+
+        Vector3 originalPos = followingCamera.transform.localPosition;
+
+        float elapsed = 0.0f;
+
+        while (elapsed < cameraShakeDuration)
+        {
+            float x = followingCamera.transform.position.x + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensityCharging * percentage);
+            float y = followingCamera.transform.position.y + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensityCharging * percentage);
+
+            followingCamera.transform.localPosition = new Vector3(x, y, originalPos.z);
+
+            elapsed += Time.deltaTime;
+
+            yield return null;
+        }
+    }
+
+    public IEnumerator changeText()
+    {
+        text.text = "Dashes: " + dashesAmount;
+
+        int oldFontsize = text.fontSize;
+        text.fontSize += 2;
+
+        yield return new WaitForSeconds(0.2f);
+
+        text.fontSize = oldFontsize;
+    }
 }

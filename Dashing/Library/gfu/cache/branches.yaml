@@ -12,19 +12,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-10-19T17:28:39.956+01:00
-  initializedAtString: 2018-10-19T17:28:39.867+01:00
+  lastUpdatedAtString: 2018-11-06T17:11:32.388+00:00
+  initializedAtString: 2018-11-06T17:11:32.320+00:00
   localBranches:
-  - name: Levels
-    tracking: origin/Levels
+  - name: Gameplay
+    tracking: origin/Gameplay
   - name: master
     tracking: origin/master
-  - name: Physics
-    tracking: origin/Physics
   remoteBranches:
+  - name: origin/Gameplay
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
+  - name: origin/Levels
+    tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/Physics
     tracking: '[None]'
   remotes:
   - name: origin
@@ -36,40 +40,52 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - Levels
+    - Gameplay
     - master
-    - Physics
     values:
-    - name: Levels
+    - name: Gameplay
       remote:
         name: origin
         url: https://github.com/DavidRMincer/GD-Dashing.git
-      trackingBranch: Levels
+      trackingBranch: Gameplay
     - name: master
       remote:
         name: origin
         url: https://github.com/DavidRMincer/GD-Dashing.git
       trackingBranch: master
-    - name: Physics
-      remote:
-        name: origin
-        url: https://github.com/DavidRMincer/GD-Dashing.git
-      trackingBranch: Physics
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - Gameplay
       - HEAD
+      - Levels
       - master
+      - Physics
     subKeyValues:
     - Values:
+      - name: Gameplay
+        remote:
+          name: origin
+          url: https://github.com/DavidRMincer/GD-Dashing.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
           url: https://github.com/DavidRMincer/GD-Dashing.git
         trackingBranch: 
+      - name: Levels
+        remote:
+          name: origin
+          url: https://github.com/DavidRMincer/GD-Dashing.git
+        trackingBranch: 
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/DavidRMincer/GD-Dashing.git
+        trackingBranch: 
+      - name: Physics
         remote:
           name: origin
           url: https://github.com/DavidRMincer/GD-Dashing.git
