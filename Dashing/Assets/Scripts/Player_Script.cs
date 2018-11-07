@@ -5,14 +5,13 @@ using UnityEngine.UI;
 
 public class Player_Script : MonoBehaviour
 {
-    public GameObject directionalArrow,
-        directionPivot;
+    public GameObject directionalArrow;       
     public float currentDashForce, maxDashForce, addDashSpeed,
         rotationSpeed,cameraSpeed,
 		cameraShakeDuration,
 		cameraShakeIntensity,
         cameraShakeIntensityCharging;
-    public GameObject chargebar, chargeBarMax, Marker;
+    public GameObject chargebar, chargeBarMax, marker, dustObject;
     public Text text;
     public Camera followingCamera;
     public ParticleSystem dust;
@@ -29,6 +28,8 @@ public class Player_Script : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
+
         rb = GetComponent<Rigidbody>();
 
         particle = GetComponent<ParticleSystem>();
@@ -56,7 +57,7 @@ public class Player_Script : MonoBehaviour
         mousePosition.z = 10.0f;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        Marker.transform.position = mousePosition;
+        marker.transform.position = new Vector3(mousePosition.x,1.5f,mousePosition.z);
 
         if (isCharging)
             StartCoroutine(ShakeCameraOverTime());
@@ -73,6 +74,13 @@ public class Player_Script : MonoBehaviour
         else
         {
             directionalArrow.SetActive(true);
+
+            Quaternion oldRotation = transform.rotation;
+
+            transform.LookAt(new Vector3(marker.transform.position.x,transform.position.y,marker.transform.position.z));
+
+            Quaternion differenceOfRotation = oldRotation * Quaternion.Inverse(transform.rotation);
+            dustObject.transform.rotation = differenceOfRotation * dustObject.transform.rotation ;
         }
 
         if (isCharging)
@@ -134,9 +142,7 @@ public class Player_Script : MonoBehaviour
 
     public void Dash()
     {
-
-
-        direction = (Marker.transform.position - transform.position).normalized;
+        direction = (marker.transform.position - transform.position).normalized;
         direction.y = 0.0f;
 
         rb.AddForce(direction * currentDashForce);

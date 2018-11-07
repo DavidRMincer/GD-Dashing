@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
-  lastUpdatedAtString: 2018-11-06T17:18:22.070+00:00
-  initializedAtString: 2018-11-06T17:08:14.337+00:00
-  gitName: 
-  gitEmail: 
+  lastUpdatedAtString: 2018-11-07T14:06:11.125+00:00
+  initializedAtString: 2018-11-07T14:06:11.111+00:00
+  gitName: Markus Krugel
+  gitEmail: KrugelMarkus@web.de
