@@ -300,7 +300,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Boost.cs" />
+    <Compile Include="Assets\Scripts\button.cs" />
+    <Compile Include="Assets\Scripts\Chargebar.cs" />
+    <Compile Include="Assets\Scripts\EnableEffect.cs" />
+    <Compile Include="Assets\Scripts\FinishLevel.cs" />
+    <Compile Include="Assets\Scripts\Lever.cs" />
     <Compile Include="Assets\Scripts\Player_Script.cs" />
+    <Compile Include="Assets\Scripts\Spike.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\Dave-id\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />
