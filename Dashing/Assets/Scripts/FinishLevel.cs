@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class FinishLevel : MonoBehaviour {
 
+    public bool endofGame;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -15,15 +17,21 @@ public class FinishLevel : MonoBehaviour {
 		
 	}
 
+    private void LoadNextLevel()
+    {
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
+        {
+            SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Single);
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-            if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
-            {
-                SceneManager.LoadScene(nextSceneIndex,LoadSceneMode.Single);
-            }
+            if (endofGame) SceneManager.LoadScene(0);
+            else LoadNextLevel();
         }
     }
 }

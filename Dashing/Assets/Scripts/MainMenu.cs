@@ -2,7 +2,7 @@
 using UnityEngine.SceneManagement;
 
 
-public class MainMenue : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
