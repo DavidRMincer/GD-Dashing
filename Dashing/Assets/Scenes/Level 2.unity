@@ -208,7 +208,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4239508644372538, guid: 31a808ad95e25844d9ccb3a561df296c, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.36274597
+      value: -0.93298805
       objectReference: {fileID: 0}
     - target: {fileID: 4239508644372538, guid: 31a808ad95e25844d9ccb3a561df296c, type: 2}
       propertyPath: m_LocalRotation.z
@@ -216,7 +216,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4239508644372538, guid: 31a808ad95e25844d9ccb3a561df296c, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9318881
+      value: -0.3599074
       objectReference: {fileID: 0}
     - target: {fileID: 4239508644372538, guid: 31a808ad95e25844d9ccb3a561df296c, type: 2}
       propertyPath: m_RootOrder
@@ -227,6 +227,15 @@ Prefab:
       propertyPath: followingCamera
       value: 
       objectReference: {fileID: 1498586014}
+    - target: {fileID: 224252917030630194, guid: 31a808ad95e25844d9ccb3a561df296c,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239508644372538, guid: 31a808ad95e25844d9ccb3a561df296c, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -222.189
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 31a808ad95e25844d9ccb3a561df296c, type: 2}
   m_IsPrefabParent: 0
@@ -304,13 +313,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1498586011}
-  m_LocalRotation: {x: 0.07881076, y: 0.919769, z: -0.24391158, w: 0.2971885}
-  m_LocalPosition: {x: 1.62, y: 14.84, z: -10}
+  m_LocalRotation: {x: 0.097240485, y: -0.9008113, z: 0.26640886, w: 0.32880032}
+  m_LocalPosition: {x: 10.55, y: 14.84, z: -12.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 29.705002, y: 144.18701, z: 0}
+  m_LocalEulerAnglesHint: {x: 32.95, y: -139.895, z: 0}
 --- !u!1001 &1832141422
 Prefab:
   m_ObjectHideFlags: 0

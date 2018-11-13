@@ -22,10 +22,10 @@ public class Player_Script : MonoBehaviour
     private int dashesAmount;
     private Rigidbody rb;
     private ParticleSystem particle;
-    private Vector3 cameraOffset;
     private bool moving;
     private bool isDashRising = true;
     private bool isCharging = false;
+    private Vector3 cameraOffset;
 
     private void Start()
     {
@@ -40,6 +40,7 @@ public class Player_Script : MonoBehaviour
         chargebar.GetComponent<MeshRenderer>().enabled = false;
         chargeBarMax.GetComponent<MeshRenderer>().enabled = false;
 
+        //Dash();
         cameraOffset = followingCamera.transform.position - transform.position;
     }
 
@@ -63,7 +64,7 @@ public class Player_Script : MonoBehaviour
 
     private void LateUpdate()
     {
-        CameraPosition();
+        updateCameraPosition();
 
         if (moving)
         {
@@ -84,6 +85,14 @@ public class Player_Script : MonoBehaviour
 
             chargebar.GetComponent<Chargebar>().changeScale(percentage);
         }
+    }
+
+    private void updateCameraPosition()
+    {
+        Vector3 newCamPos = transform.position + cameraOffset;
+        Vector3 camDirection = (newCamPos - followingCamera.transform.position) * Time.deltaTime * cameraSpeed;
+
+        followingCamera.transform.position += camDirection;
     }
 
     private void GetInput()
@@ -118,6 +127,7 @@ public class Player_Script : MonoBehaviour
 
             Vector3 oldCamPosition = followingCamera.transform.position;
             followingCamera.transform.RotateAround(chargebar.transform.position, Vector3.up, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
+            cameraOffset += followingCamera.transform.position - oldCamPosition;
         }
 
     }
@@ -150,28 +160,20 @@ public class Player_Script : MonoBehaviour
         StartCoroutine(ShakeCamera());
     }
 
-    private void CameraPosition()
-    {
-        Vector3 newCamPos = transform.position + cameraOffset;
-        Vector3 camDirection = (newCamPos - followingCamera.transform.position) * Time.deltaTime * cameraSpeed;
-
-        followingCamera.transform.position += camDirection;
-    }
-
-    public IEnumerator ShakeCamera()
+	public IEnumerator ShakeCamera()
 	{
-        Vector3 originalPos = followingCamera.transform.localPosition;
+		Vector3 originalPos = followingCamera.transform.localPosition;
 
-        float elapsed = 0.0f;
+		float elapsed = 0.0f;
 
 		while (elapsed < cameraShakeDuration)
 		{
-            float x = followingCamera.transform.position.x + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensity);
-            float y = followingCamera.transform.position.y + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensity);
+			float x = followingCamera.transform.position.x + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensity);
+			float y = followingCamera.transform.position.y + (Random.Range(-1.0f, 1.0f) * cameraShakeIntensity);
 
-            followingCamera.transform.localPosition = new Vector3(x, y, originalPos.z);
+			followingCamera.transform.localPosition = new Vector3(x, y, originalPos.z);
 
-            elapsed += Time.deltaTime;
+			elapsed += Time.deltaTime;
 
 			yield return null;
 		}
