@@ -58,6 +58,7 @@ public class Player_Script : MonoBehaviour
 
         Marker.transform.position = mousePosition;
 
+
         if (isCharging)
             StartCoroutine(ShakeCameraOverTime());
     }
@@ -69,10 +70,17 @@ public class Player_Script : MonoBehaviour
         if (moving)
         {
             directionalArrow.SetActive(false);
+            Marker.SetActive(false);
         }
         else
         {
             directionalArrow.SetActive(true);
+            Marker.SetActive(true);
+
+            var lookPos = Marker.transform.position - transform.position;
+            lookPos.y = 0;
+            var rotation = Quaternion.LookRotation(lookPos);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime);
         }
 
         if (isCharging)

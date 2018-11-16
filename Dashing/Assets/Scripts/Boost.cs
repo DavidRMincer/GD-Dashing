@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Boost : MonoBehaviour {
 
+    public float power;
     Rigidbody rb;
-    float power = 15f;
 
 	// Use this for initialization
 	void Start () {

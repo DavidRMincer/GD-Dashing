@@ -240,9 +240,6 @@
     <Reference Include="UnityEngine.Timeline">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UIAutomation">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -309,6 +306,7 @@
     <Compile Include="Assets\Scripts\Boost.cs" />
     <Compile Include="Assets\Scripts\button.cs" />
     <Compile Include="Assets\Scripts\Chargebar.cs" />
+    <Compile Include="Assets\Scripts\DZone_Script.cs" />
     <Compile Include="Assets\Scripts\EnableEffect.cs" />
     <Compile Include="Assets\Scripts\FinishLevel.cs" />
     <Compile Include="Assets\Scripts\Lever.cs" />
