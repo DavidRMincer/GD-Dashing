@@ -7,16 +7,22 @@ public class Player_Script : MonoBehaviour
 {
     public GameObject directionalArrow,
         directionPivot;
-    public float currentDashForce, maxDashForce, addDashSpeed,
-        rotationSpeed,cameraSpeed,
+    public float currentDashForce,
+        maxDashForce,
+        addDashSpeed,
+        rotationSpeed,
+        cameraSpeed,
 		cameraShakeDuration,
 		cameraShakeIntensity,
-        cameraShakeIntensityCharging;
-    public GameObject chargebar, chargeBarMax, Marker;
+        cameraShakeIntensityCharging,
+        lerpMaxTime;
+    public GameObject chargebar,
+        chargeBarMax,
+        Marker,
+        cameraPosition;
     public Text text;
     public Camera followingCamera;
     public ParticleSystem dust;
-
     public Vector3 direction;
 
     private int dashesAmount;
@@ -26,6 +32,7 @@ public class Player_Script : MonoBehaviour
     private bool isDashRising = true;
     private bool isCharging = false;
     private Vector3 cameraOffset;
+    private float lerpCounter;
 
     private void Start()
     {
@@ -41,7 +48,7 @@ public class Player_Script : MonoBehaviour
         chargeBarMax.GetComponent<MeshRenderer>().enabled = false;
 
         //Dash();
-        cameraOffset = followingCamera.transform.position - transform.position;
+        //cameraOffset = followingCamera.transform.position - transform.position;
     }
 
     private void FixedUpdate()
@@ -65,12 +72,11 @@ public class Player_Script : MonoBehaviour
 
     private void LateUpdate()
     {
-        updateCameraPosition();
-
         if (moving)
         {
             directionalArrow.SetActive(false);
             Marker.SetActive(false);
+            lerpCounter += Time.deltaTime;
         }
         else
         {
@@ -93,14 +99,18 @@ public class Player_Script : MonoBehaviour
 
             chargebar.GetComponent<Chargebar>().changeScale(percentage);
         }
+
+        updateCameraPosition();
     }
 
     private void updateCameraPosition()
     {
-        Vector3 newCamPos = transform.position + cameraOffset;
-        Vector3 camDirection = (newCamPos - followingCamera.transform.position) * Time.deltaTime * cameraSpeed;
+        Vector3 NewPos = Vector3.Lerp(followingCamera.transform.position, cameraPosition.transform.position, lerpCounter / lerpMaxTime);
+        followingCamera.transform.position = NewPos;
 
-        followingCamera.transform.position += camDirection;
+        followingCamera.transform.eulerAngles = new Vector3(followingCamera.transform.eulerAngles.x, transform.eulerAngles.y, followingCamera.transform.eulerAngles.z);
+
+        if (lerpCounter >= lerpMaxTime) lerpCounter = 0.0f;
     }
 
     private void GetInput()
@@ -133,9 +143,9 @@ public class Player_Script : MonoBehaviour
         {
             transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
 
-            Vector3 oldCamPosition = followingCamera.transform.position;
-            followingCamera.transform.RotateAround(chargebar.transform.position, Vector3.up, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
-            cameraOffset += followingCamera.transform.position - oldCamPosition;
+            //Vector3 oldCamPosition = followingCamera.transform.position;
+            //followingCamera.transform.RotateAround(chargebar.transform.position, Vector3.up, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
+            //cameraOffset += followingCamera.transform.position - oldCamPosition;
         }
 
     }
