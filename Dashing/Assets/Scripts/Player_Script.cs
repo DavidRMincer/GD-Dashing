@@ -7,18 +7,16 @@ public class Player_Script : MonoBehaviour
 {
     public GameObject directionalArrow,
         directionPivot;
-    public float currentDashForce,
+    public float startDashForce,
         maxDashForce,
         addDashSpeed,
         rotationSpeed,
-        cameraSpeed,
 		cameraShakeDuration,
 		cameraShakeIntensity,
         cameraShakeIntensityCharging,
         lerpMaxTime;
     public GameObject chargebar,
         chargeBarMax,
-        Marker,
         cameraPosition;
     public Text text;
     public Camera followingCamera;
@@ -32,7 +30,8 @@ public class Player_Script : MonoBehaviour
     private bool isDashRising = true;
     private bool isCharging = false;
     private Vector3 cameraOffset;
-    private float lerpCounter;
+    private float currentDashForce,
+        lerpCounter;
 
     private void Start()
     {
@@ -47,6 +46,9 @@ public class Player_Script : MonoBehaviour
         chargebar.GetComponent<MeshRenderer>().enabled = false;
         chargeBarMax.GetComponent<MeshRenderer>().enabled = false;
 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         //Dash();
         //cameraOffset = followingCamera.transform.position - transform.position;
     }
@@ -58,16 +60,6 @@ public class Player_Script : MonoBehaviour
             (Mathf.Abs(rb.velocity.z) < 0.1));
 
         if (!moving) GetInput();
-
-        var mousePosition = Input.mousePosition;
-        mousePosition.z = 10.0f;
-        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-
-        Marker.transform.position = mousePosition;
-
-
-        if (isCharging)
-            StartCoroutine(ShakeCameraOverTime());
     }
 
     private void LateUpdate()
@@ -75,18 +67,11 @@ public class Player_Script : MonoBehaviour
         if (moving)
         {
             directionalArrow.SetActive(false);
-            Marker.SetActive(false);
             lerpCounter += Time.deltaTime;
         }
         else
         {
             directionalArrow.SetActive(true);
-            Marker.SetActive(true);
-
-            var lookPos = Marker.transform.position - transform.position;
-            lookPos.y = 0;
-            var rotation = Quaternion.LookRotation(lookPos);
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime);
         }
 
         if (isCharging)
@@ -101,16 +86,23 @@ public class Player_Script : MonoBehaviour
         }
 
         updateCameraPosition();
+        
+        if (isCharging)
+            StartCoroutine(ShakeCameraOverTime());
     }
 
     private void updateCameraPosition()
     {
-        Vector3 NewPos = Vector3.Lerp(followingCamera.transform.position, cameraPosition.transform.position, lerpCounter / lerpMaxTime);
+        Vector3 NewPos;
+
+        if (moving) NewPos = Vector3.Lerp(followingCamera.transform.position, cameraPosition.transform.position, lerpCounter / lerpMaxTime);
+        else NewPos = cameraPosition.transform.position;
+        
         followingCamera.transform.position = NewPos;
 
         followingCamera.transform.eulerAngles = new Vector3(followingCamera.transform.eulerAngles.x, transform.eulerAngles.y, followingCamera.transform.eulerAngles.z);
 
-        if (lerpCounter >= lerpMaxTime) lerpCounter = 0.0f;
+        if (lerpCounter >= lerpMaxTime) lerpCounter = 0.1f;
     }
 
     private void GetInput()
@@ -127,9 +119,9 @@ public class Player_Script : MonoBehaviour
             }
 
             if(isDashRising)
-                currentDashForce = currentDashForce + addDashSpeed * Time.deltaTime;
+                currentDashForce = currentDashForce + (addDashSpeed * Time.deltaTime);
             else
-                currentDashForce = currentDashForce - addDashSpeed * Time.deltaTime;
+                currentDashForce = currentDashForce - (addDashSpeed * Time.deltaTime);
 
             if (currentDashForce >= maxDashForce)
                 isDashRising = false;
@@ -152,12 +144,10 @@ public class Player_Script : MonoBehaviour
 
     public void Dash()
     {
-
-
-        direction = (Marker.transform.position - transform.position).normalized;
+        direction = (directionalArrow.transform.position - transform.position).normalized;
         direction.y = 0.0f;
 
-        rb.AddForce(direction * currentDashForce);
+        rb.AddForce(direction * (currentDashForce + startDashForce));
 
         particle.Stop();
         particle.Clear();
@@ -199,7 +189,7 @@ public class Player_Script : MonoBehaviour
 
     public IEnumerator ShakeCameraOverTime()
     {
-        float percentage = currentDashForce / maxDashForce;
+        float percentage = (currentDashForce + startDashForce) / maxDashForce;
 
         Vector3 originalPos = followingCamera.transform.localPosition;
 
