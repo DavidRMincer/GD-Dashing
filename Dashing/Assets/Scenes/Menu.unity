@@ -831,8 +831,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4293322470
+  m_fontColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
   m_enableVertexGradient: 1
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -934,7 +934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95befaa3f4091014fba38812f7a855b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onMouseOverColor: {r: 0.7169812, g: 0.6933073, b: 0.6933073, a: 1}
+  onMouseOverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &915393350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,8 +1131,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4293388263
+  m_fontColor: {r: 0.90588236, g: 0.90588236, b: 0.90588236, a: 1}
   m_enableVertexGradient: 1
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95befaa3f4091014fba38812f7a855b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onMouseOverColor: {r: 0.7169812, g: 0.6933073, b: 0.6933073, a: 1}
+  onMouseOverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1435899614
 GameObject:
   m_ObjectHideFlags: 0
