@@ -6,7 +6,13 @@ using UnityEngine.UI;
 public class Player_Script : MonoBehaviour
 {
     public GameObject directionalArrow,
-        directionPivot;
+        directionPivot,
+        rotateHint,
+        dashHint,
+        chargebar,
+        chargeBarMax,
+        cameraPosition,
+        clippingCameraPosition;
     public float startDashForce,
         maxDashForce,
         addDashSpeed,
@@ -14,10 +20,8 @@ public class Player_Script : MonoBehaviour
 		cameraShakeDuration,
 		cameraShakeIntensity,
         cameraShakeIntensityCharging,
-        lerpMaxTime;
-    public GameObject chargebar,
-        chargeBarMax,
-        cameraPosition;
+        lerpMaxTime,
+        hintWaitTime;
     public Text text;
     public Camera followingCamera;
     public ParticleSystem dust;
@@ -26,12 +30,16 @@ public class Player_Script : MonoBehaviour
     private int dashesAmount;
     private Rigidbody rb;
     private ParticleSystem particle;
-    private bool moving;
-    private bool isDashRising = true;
-    private bool isCharging = false;
+    private bool moving,
+        rotated = false,
+        dashed = false,
+        isDashRising = true,
+        isCharging = false;
     private Vector3 cameraOffset;
     private float currentDashForce,
-        lerpCounter;
+        lerpCounter,
+        hintCounter;
+    private QueryTriggerInteraction layerMask;
 
     private void Start()
     {
@@ -89,14 +97,48 @@ public class Player_Script : MonoBehaviour
         
         if (isCharging)
             StartCoroutine(ShakeCameraOverTime());
+
+        if (!rotated)
+        {
+            hintCounter += Time.deltaTime;
+
+            if (hintCounter >= hintWaitTime)
+            {
+                rotateHint.SetActive(true);
+                hintCounter = 0.0f;
+            }
+        }
+        else
+        {
+            rotateHint.SetActive(false);
+
+            if (!dashed)
+            {
+                hintCounter += Time.deltaTime;
+
+                if (hintCounter >= hintWaitTime)
+                {
+                    dashHint.SetActive(true);
+                    hintCounter = 0.0f;
+                }
+            }
+            else dashHint.SetActive(false);
+        }
     }
 
     private void updateCameraPosition()
     {
-        Vector3 NewPos;
+        Vector3 NewPos,
+            camToPlayer = transform.position - cameraPosition.transform.position,
+            NewCam;
+        RaycastHit hit;
 
-        if (moving) NewPos = Vector3.Lerp(followingCamera.transform.position, cameraPosition.transform.position, lerpCounter / lerpMaxTime);
-        else NewPos = cameraPosition.transform.position;
+        if (Physics.Raycast(cameraPosition.transform.position, camToPlayer, out hit, 100.0f)
+            && hit.transform.tag != "Player") NewCam = clippingCameraPosition.transform.position;
+        else NewCam = cameraPosition.transform.position;
+
+        if (moving) NewPos = Vector3.Lerp(followingCamera.transform.position, NewCam, lerpCounter / lerpMaxTime);
+        else NewPos = NewCam;
         
         followingCamera.transform.position = NewPos;
 
@@ -109,16 +151,16 @@ public class Player_Script : MonoBehaviour
     {
         if (Input.GetButton("Dash"))
         {
-            if(!isCharging)
+            if (!isCharging)
             {
                 particle.Play();
                 isCharging = true;
 
-                chargebar.GetComponent<MeshRenderer>().enabled =  true;
-                chargeBarMax.GetComponent<MeshRenderer>().enabled =  true;
+                chargebar.GetComponent<MeshRenderer>().enabled = true;
+                chargeBarMax.GetComponent<MeshRenderer>().enabled = true;
             }
 
-            if(isDashRising)
+            if (isDashRising)
                 currentDashForce = currentDashForce + (addDashSpeed * Time.deltaTime);
             else
                 currentDashForce = currentDashForce - (addDashSpeed * Time.deltaTime);
@@ -129,11 +171,15 @@ public class Player_Script : MonoBehaviour
                 isDashRising = true;
         }
         else if (Input.GetButtonUp("Dash"))
+        {
             Dash();
+            dashed = true;
+        }
 
         else
         {
             transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
+            if (Input.GetAxis("Horizontal") != 0.0f) rotated = true;
 
             //Vector3 oldCamPosition = followingCamera.transform.position;
             //followingCamera.transform.RotateAround(chargebar.transform.position, Vector3.up, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime);
