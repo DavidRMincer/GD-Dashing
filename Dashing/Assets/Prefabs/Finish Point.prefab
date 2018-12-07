@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950223ea61e3edc4dbb37c56418a378f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endofGame: 1
+  endofGame: 0
 --- !u!135 &135909398458679804
 SphereCollider:
   m_ObjectHideFlags: 1

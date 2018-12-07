@@ -308,15 +308,15 @@ RectTransform:
   m_GameObject: {fileID: 372795286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8266225, y: 0.8266227, z: 0.8266227}
   m_Children:
   - {fileID: 611100154}
   m_Father: {fileID: 1012385151}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -82.2, y: -127.8}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -82.486, y: -85.228}
   m_SizeDelta: {x: 75.6, y: 39.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372795288
@@ -671,16 +671,16 @@ RectTransform:
   m_GameObject: {fileID: 515591100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8266225, y: 0.8266227, z: 0.8266227}
   m_Children:
   - {fileID: 1369182793}
   m_Father: {fileID: 1012385151}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -82.19998, y: -17.400023}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -84.47, y: -120.94}
+  m_SizeDelta: {x: 76.34, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515591102
 MonoBehaviour:
@@ -1098,7 +1098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -155.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 77.4, y: 35.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1369182794
@@ -1366,11 +1366,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
