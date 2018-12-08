@@ -33,6 +33,17 @@ public class Player_Script : MonoBehaviour
     private float currentDashForce,
         lerpCounter;
 
+    //Audio vars
+    [SerializeField]
+    private AudioSource source;
+    [SerializeField]
+    private AudioClip chargeSound;
+    [SerializeField]
+    private AudioClip REVchargeSound;
+    [SerializeField]
+    private AudioClip dashSound;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -48,6 +59,11 @@ public class Player_Script : MonoBehaviour
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        //init audio
+        source.GetComponent<AudioSource>();
+        
+
 
         //Dash();
         //cameraOffset = followingCamera.transform.position - transform.position;
@@ -105,31 +121,52 @@ public class Player_Script : MonoBehaviour
         if (lerpCounter >= lerpMaxTime) lerpCounter = 0.1f;
     }
 
+    //added audio code
     private void GetInput()
     {
         if (Input.GetButton("Dash"))
         {
-            if(!isCharging)
+            if (!isCharging)
             {
                 particle.Play();
                 isCharging = true;
 
-                chargebar.GetComponent<MeshRenderer>().enabled =  true;
-                chargeBarMax.GetComponent<MeshRenderer>().enabled =  true;
+                chargebar.GetComponent<MeshRenderer>().enabled = true;
+                chargeBarMax.GetComponent<MeshRenderer>().enabled = true;
             }
 
-            if(isDashRising)
+            if (isDashRising)
+            {
                 currentDashForce = currentDashForce + (addDashSpeed * Time.deltaTime);
+                if (!source.isPlaying)
+                    source.PlayOneShot(chargeSound);
+            }
             else
+            {
                 currentDashForce = currentDashForce - (addDashSpeed * Time.deltaTime);
+                if (!source.isPlaying)
+                    source.PlayOneShot(REVchargeSound);
+                
+            }
 
             if (currentDashForce >= maxDashForce)
+            {
                 isDashRising = false;
+            }
             else if (currentDashForce <= 0)
+            {
                 isDashRising = true;
+            }
         }
         else if (Input.GetButtonUp("Dash"))
+        {
+            isDashRising = true;
+            source.Stop();
+            source.Stop();
+            source.PlayOneShot(dashSound);
             Dash();
+        }
+            
 
         else
         {
