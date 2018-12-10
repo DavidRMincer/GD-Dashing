@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Spike : MonoBehaviour {
 
-    private ParticleSystem particle;
+    public ParticleSystem particle;
 
     // Use this for initialization
     void Start () {
