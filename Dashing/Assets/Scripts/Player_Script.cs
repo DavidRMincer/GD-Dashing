@@ -41,6 +41,16 @@ public class Player_Script : MonoBehaviour
         hintCounter;
     private QueryTriggerInteraction layerMask;
 
+    //Audio vars
+    [SerializeField]
+    private AudioSource source;
+    [SerializeField]
+    private AudioClip chargeSound;
+    [SerializeField]
+    private AudioClip REVchargeSound;
+    [SerializeField]
+    private AudioClip dashSound;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -57,8 +67,8 @@ public class Player_Script : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
-        //Dash();
-        //cameraOffset = followingCamera.transform.position - transform.position;
+        //init audio
+        source.GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -161,18 +171,34 @@ public class Player_Script : MonoBehaviour
             }
 
             if (isDashRising)
+            {
                 currentDashForce = currentDashForce + (addDashSpeed * Time.deltaTime);
+                if (!source.isPlaying)
+                    source.PlayOneShot(chargeSound);
+            }
             else
+            {
                 currentDashForce = currentDashForce - (addDashSpeed * Time.deltaTime);
+                if (!source.isPlaying)
+                    source.PlayOneShot(REVchargeSound);
+                
+            }
 
             if (currentDashForce >= maxDashForce)
+            {
                 isDashRising = false;
+            }
             else if (currentDashForce <= 0)
+            {
                 isDashRising = true;
+            }
         }
         else if (Input.GetButtonUp("Dash"))
         {
             Dash();
+            source.Stop();
+            source.Stop();
+            source.PlayOneShot(dashSound);
             dashed = true;
         }
 
